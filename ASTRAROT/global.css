@@ -1,0 +1,154 @@
+#navbar{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.75rem;
+    background-color: #63459B;
+    
+}
+
+#navbar ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: stretch;
+    align-items: center;
+    padding: 1.75rem;
+    margin-left: 1em;
+    font-size: 0.75em;
+}
+
+
+#navbar ul li a {
+    padding: 00.75rem;
+    text-decoration: none; /*LİNKLERİN ALTINDAKİ ÇİZGİYİ YOK EDER*/
+    color:wheat;
+}
+
+.logo{
+    float: left;    
+}
+
+.logo2{
+    float:unset;
+}
+
+.hizmet{
+    text-align: center;
+    text-shadow: 2px -2px 6px rgb(142, 114, 142);
+}
+
+#section{
+    color: #312250;
+}
+
+.bilgi{
+    font-size: 0.75em;
+    padding-top: 2em;
+}
+
+
+
+table tr td{
+    padding: 2em;
+    line-height: 2em;
+} 
+
+table tr td a{
+ color: #312250;
+ background-color: rgb(234, 206, 250);
+ text-decoration:none;
+ border: solid 1px;
+ margin: 12em;
+ box-shadow: 0.5em -0.5em 0.4em red, 0.5em 0.5em 0.4em gold, -0.5em 0.5em 0.4em lime, -0.5em -0.5em 0.4em blue ;
+ width:25px;
+ Padding:3px;
+}
+
+table tr td a:hover{
+    background-color: #4717a8;
+    color: rgb(234, 206, 250);
+}
+ 
+footer{
+    color: bisque;
+    background-color: #63459B;
+    text-align: center;
+    width: 50%;
+    height: 50%;
+    margin-left: 10em;
+    border-radius: 8px;
+    box-shadow:2px -2px 6px rgb(142, 114, 142);   
+}
+
+form .form{
+    text-align: center;
+    width: 75%;
+    height: 2em;
+    margin-left: 2em;
+    resize: none;
+    border-radius: 4px;   
+}
+
+ .kayıt{
+    border:2px solid bisque;;
+    border-radius: 4px;
+    background-color: #379f9d;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    width: 50%;
+    margin-left: 5em;   
+}
+
+ .kayıt a{
+    text-decoration: none;
+    margin-bottom: 0.5em;  
+    color: bisque;
+}
+
+.fab {
+    padding: 8px;
+    font-size: 30px;
+    width: 32px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+.fab:hover {
+    opacity: 0.6;
+}
+.fa-facebook-f {
+    background: #3B5998;
+    color: white;
+}
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+ 
+.fa-instagram {
+    background: #e1306c;
+    color: white;
+}
+
+.icon-text{
+    width: 125px;
+    font-size: 10px;
+}
+ 
+.icon-text span{
+    margin:4px;
+}
+
+.contact{
+    background-color:#FFE574; 
+    color:#312250;
+    text-align: center;
+    font-size: 18px;
+    position: fixed;
+     bottom: 0;
+     left: 0;
+     width: 100%
+}
+
+
